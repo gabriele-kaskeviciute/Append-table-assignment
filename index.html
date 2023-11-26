@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Append table assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Append table</h1>
+<div id="textInput">
+    <input id="firstName" placeholder="vardas" type="text">
+     <input id="lastName" placeholder="pavardė" type="text">
+     <input id="age" placeholder="amžius" type="number">
+</div>
+<div id="submit" >
+    <input id="add" type="submit" value="Pridėti">
+    <input id="removeFirst" type="submit" value="Ištrinti pirmą">
+    <input id="removeLast" type="submit" value="Ištrinti paskutinį">
+</div>
+    <table>
+        <tr >
+        <th >VARDAS</th>
+        <th id="table2">PAVARDĖ</th>
+        <th >AMŽIUS</th>
+        </tr>
+        <tbody id="table">
+        <td >Jonas</td>
+        <td >Rimkus</td>
+        <td >54</td>
+        </tr>
+        <tr>
+            <td>Vestina</td>
+            <td>Petronytė</td>
+            <td>31</td>
+        </tr>
+        <tr>
+            <td>Marius</td>
+            <td>Dulinskas</td>
+            <td>23</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin-left: 10px;
+}
+h1 {
+    margin: 20px 0;
+}
+
+#textInput {
+margin-bottom: 10px;
+}
+
+ #add,
+ #removeFirst,
+ #removeLast {
+    width: 173px;
+    margin-bottom: 10px;
+}
+
+ #table2{
+    background: #BE9232;
+}
+ 
+table {
+    background: #EBB30C;
+}
+
+th,
+td {
+    width: 173px;
+    padding: 15px 20px;
+}
+
+th {
+    margin-top: 10px;
+    background: #EBB30C;
+}
+td {
+    background: #392C69;
+    color: white;
+}
